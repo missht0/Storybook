@@ -49,14 +49,22 @@
 
 @media screen and (max-width: 600px) {
 
-  .sc-list-price {
-    .m-item {
-      width: 100%;
-
-      &+.m-item {
-        margin: 0!important;
+  .sc-article {
+    .m-bd{
+      flex-direction: column;
+      .m-wrap {
+        width: 100%;
+  
+        &+.m-item {
+          margin: 0!important;
+        }
+      }
+      .m-img{
+        width: 100%;
+        order: -1;
       }
     }
+
 
   }
 }
